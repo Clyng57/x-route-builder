@@ -1,0 +1,30 @@
+{
+  "name": "x-route-builder",
+  "version": "1.0.0",
+  "description": "A light-weight utility for creating file based routing in frameworks like express.",
+  "author": "Cal Young",
+  "license": "MIT",
+  "keywords": [
+    "file-based",
+    "routing",
+    "routes",
+    "express",
+    "expressjs",
+    "file based routing",
+    "nodejs",
+    "string",
+    "custom",
+    "javascript",
+    "node",
+    "file",
+    "based",
+    "filebased"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "chroma-palette": "^1.2.2"
+  }
+}
