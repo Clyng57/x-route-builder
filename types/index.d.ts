@@ -3,12 +3,12 @@
  * A module that creates a tool for implementing color and formatting for the terminal.
  * @module x-route-builder
  */
-
+declare module 'x-route-builder'
 /**
- * Class XrouteBuilder - creates a tool for building routes automatically using file-based routing.
+ * Class Xrouter - creates a tool for building routes automatically using file-based routing.
  */
 
-declare class XrouteBuilder {
+declare class Xrouter {
 
   /**
    * Create XrouteBuilder
@@ -75,5 +75,7 @@ declare class XrouteBuilder {
    */
   create(): void
 }
+
+declare var XrouteBuilder: typeof Xrouter;
 
 export = XrouteBuilder;

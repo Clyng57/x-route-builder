@@ -88,16 +88,16 @@ class XrouteBuilder {
     let p = pathTo;
     if (p === '')
       return p;
-    if (p.includes(/\/$/g))
+    if (p.match(/\/$/g))
       p = p.replace(/\/$/g, '')
-    if (!p.includes(/^\//g))
+    if (!p.match(/^\//g))
       p = '/' + p;
     return p;
   }
   /** @private */
   buildRoutes = (opts)=> {
     let options = {
-      dircount: this.dircount + 1,
+      dircount: opts ? opts.dircount + 1 : this.dircount + 1,
       dirpath: opts ? opts.dirpath : this.dirpath,
       basepath: opts ? opts.basepath : this.parseBasepath(this.basepath),
       fileRoutes: this.fileRoutes,

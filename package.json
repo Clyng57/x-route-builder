@@ -1,6 +1,6 @@
 {
   "name": "x-route-builder",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "A light-weight utility for creating file based routing in frameworks like express.",
   "author": "Cal Young",
   "license": "MIT",
